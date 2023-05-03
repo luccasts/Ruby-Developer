@@ -97,17 +97,59 @@
 # puts("Meu computador é  #{OS.bits} bits, possui #{OS.cpu_count} cores e o sist. operacional é #{my_SO}")
 
 
-values1 = [1,2,4]
-values2= [3,2,6]
+# values1 = [1,2,4]
+# values2= [3,2,6]
 
-def HandleSum(values1, values2)
-    result = []
-    for i in 0..(values1.length - 1) do
-        if i % 2 == 0 
-            result.push() << values1[i] + values2[i]
-        end
-    end
-    return result
-end
+# def HandleSum(values1, values2)
+#     result = []
+#     for i in 0..(values1.length - 1) do
+#         if i % 2 == 0 
+#             result.push() << values1[i] + values2[i]
+#         end
+#     end
+#     return result
+# end
 
-print HandleSum(values1, values2)
+# print HandleSum(values1, values2)
+
+# def teste(numbers, &block)
+#     if block_given?
+#         numbers.each do |key, value|
+#             block.call(key,value)
+#         end
+#     end
+# end 
+
+#     numbers = {2 => 2, 3 => 3, 4 => 4, 5 => 5,}
+
+#     teste(numbers) do  |key, value|
+#     puts "#{key} + #{value}"
+#     end
+
+
+# meu_lambda = lambda do |numbers|
+#     i = 0
+#     puts "Número atual + Próximo número"
+#     numbers.each do |number|
+#         return if numbers[i] == numbers.last
+#         puts "(#{numbers[i]}) + (#{numbers[i + 1]})"
+#         puts number[i] + numbers[i+1]
+#         i+= 1
+#      end
+# end 
+
+
+# numbers = [1, 2, 3, 4, 5, 6, 7]
+
+# meu_lambda.call(numbers)
+
+
+# def test(primeiroLambda, segundoLambda)
+#     primeiroLambda.call
+#     segundoLambda.call
+# end 
+#     primeiroLambda= lambda {puts "1"}
+#     segundoLambda = lambda { puts "2"}
+#     test(primeiroLambda, segundoLambda)
+
+#namesSpace
