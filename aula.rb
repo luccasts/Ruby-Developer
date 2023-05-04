@@ -153,3 +153,22 @@
 #     test(primeiroLambda, segundoLambda)
 
 #namesSpace
+
+
+# module PalavraReversa
+#         def self.puts text
+#             print text.reverse.to_s
+#         end
+# end 
+#     PalavraReversa::puts("Revertendo o texto")
+
+# puts Math.sqrt(16)
+
+# putsMath.log10(100)
+
+# puts radian = 30 * (Math::PI /180)
+# puts Math::E 
+# puts Math::PI
+
+#TIME
+
